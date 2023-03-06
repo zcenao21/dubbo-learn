@@ -15,7 +15,7 @@ public class App
         ClassPathXmlApplicationContext context=new ClassPathXmlApplicationContext("consumer.xml");
         context.start();
         ProviderService providerService = (ProviderService) context.getBean("providerService");
-        String str = providerService.SayHello("hello");
+        String str = providerService.SayHello("hello will");
         System.out.println(str);
         System.in.read();
     }
