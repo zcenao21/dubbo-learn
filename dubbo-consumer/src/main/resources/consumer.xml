@@ -9,14 +9,16 @@
 
     <!--dubbo这个服务所要暴露的服务地址所对应的注册中心-->
     <!--点对点的方式-->
-    <dubbo:registry address="N/A" />
-    <!--<dubbo:registry address="zookeeper://localhost:2181" check="false"/>-->
+<!--    <dubbo:registry address="N/A" />-->
+    <dubbo:registry address="zookeeper://localhost:2181" check="false"/>
 
     <!--生成一个远程服务的调用代理-->
     <!--点对点方式-->
+<!--    <dubbo:reference id="providerService"-->
+<!--                     interface="com.will.dubbo.provider.iface.ProviderService"-->
+<!--                     url="dubbo://10.189.127.228:20880/com.will.dubbo.provider.iface.ProviderService"/>-->
     <dubbo:reference id="providerService"
-                     interface="com.will.dubbo.provider.iface.ProviderService"
-                     url="dubbo://10.189.127.228:20880/com.will.dubbo.provider.iface.ProviderService"/>
+                     interface="com.will.dubbo.provider.iface.ProviderService"/>
 
     <!--<dubbo:reference id="providerService"
                      interface="com.sihai.dubbo.provider.service.ProviderService"/>-->
