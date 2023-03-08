@@ -17,7 +17,7 @@
 <!--    <dubbo:reference id="providerService"-->
 <!--                     interface="com.will.dubbo.provider.iface.ProviderService"-->
 <!--                     url="dubbo://10.189.127.228:20880/com.will.dubbo.provider.iface.ProviderService"/>-->
-    <dubbo:reference id="providerService"
+    <dubbo:reference id="providerService" check="false"
                      interface="com.will.dubbo.provider.iface.ProviderService"/>
 
     <!--<dubbo:reference id="providerService"

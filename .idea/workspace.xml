@@ -5,12 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="533751c8-bdfa-4641-8679-a7be478a6744" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/dubbo-consumer/src/main/java/com/will/dubbo/consumer/AppAnnotation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dubbo-consumer/src/main/java/com/will/dubbo/consumer/annotation/Annotation/ConsumerAnnotationService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dubbo-consumer/src/main/java/com/will/dubbo/consumer/annotation/configuration/ConsumerConfiguration.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dubbo-provider/src/main/org.example.dubbo.interface/com/will/dubbo/annotation/configuration/DubboConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-provider/src/main/org.example.dubbo.interface/com/will/dubbo/annotation/provider/configuration/DubboConfiguration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dubbo-provider/src/main/org.example.dubbo.interface/com/will/dubbo/annotation/provider/AppAnnotation.java" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-provider/src/main/org.example.dubbo.interface/com/will/dubbo/annotation/provider/AppAnnotation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-consumer/src/main/java/com/will/dubbo/consumer/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-consumer/src/main/java/com/will/dubbo/consumer/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-consumer/src/main/resources/consumer.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-consumer/src/main/resources/consumer.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-provider/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-provider/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-provider/src/main/resources/META-INF/spring/provider.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-provider/src/main/resources/META-INF/spring/provider.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-provider/src/main/resources/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-provider/src/main/resources/log4j.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +73,7 @@
       <recent name="org.example.dubbo.iface" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.AppAnnotation">
+  <component name="RunManager" selected="Application.Provider">
     <configuration name="AnnotationConsumer" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.will.dubbo.consumer.annotation.configuration.AppAnnotation" />
       <module name="dubbo-consumer" />
@@ -161,11 +161,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Consumer" />
+        <item itemvalue="Application.Provider" />
         <item itemvalue="Application.AppAnnotation" />
         <item itemvalue="Application.AnnotationProvider" />
         <item itemvalue="Application.AnnotationConsumer" />
-        <item itemvalue="Application.AnnotationConsumer" />
-        <item itemvalue="Application.Consumer" />
       </list>
     </recent_temporary>
   </component>

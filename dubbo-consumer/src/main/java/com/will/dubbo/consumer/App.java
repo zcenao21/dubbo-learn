@@ -17,6 +17,5 @@ public class App
         ProviderService providerService = (ProviderService) context.getBean("providerService");
         String str = providerService.SayHello("hello will");
         System.out.println(str);
-        System.in.read();
     }
 }
