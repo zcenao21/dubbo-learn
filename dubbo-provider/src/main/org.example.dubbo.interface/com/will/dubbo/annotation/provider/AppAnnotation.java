@@ -1,6 +1,6 @@
 package com.will.dubbo.annotation.provider;
 
-import com.will.dubbo.annotation.configuration.DubboConfiguration;
+import com.will.dubbo.annotation.provider.configuration.DubboConfiguration;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
